@@ -1,0 +1,143 @@
+.mainBox {
+  padding: 10px 39px 11px 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding-left: 3px;
+  gap: 10px;
+}
+
+.loading {
+  width: 16px;
+  height: 16px;
+}
+
+.loading img {
+  width: 100%;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.loadingText {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.buttonBox {
+  display: flex;
+  margin-top: 3px;
+  flex-direction: row;
+}
+
+.buttonBox div {
+  width: 60px;
+  font-size: 21px;
+  padding: 13px 0 14px 0;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  color: white;
+  border: 1.5px solid #01bcb7;
+}
+
+.buttonBox div:nth-child(1) {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #01bcb7;
+  border-right: 0.75px solid #01bcb7;
+  cursor: pointer;
+}
+
+.buttonBox div:nth-child(1):active {
+  color: #01bcb7;
+  background-color: #ffffff;
+}
+
+.buttonBox input {
+  border-left: 0.75px solid #01bcb7;
+  border: 2px solid #01bcb7;
+  border-right: 0.75px solid #01bcb7;
+  width: 60px;
+  text-align: center;
+  text-overflow: clip;
+  word-wrap: normal;
+  overflow: hidden;
+  background-color: #ffffff;
+  font-size: 21px;
+  outline: none;
+  padding: 13px 0 14px 0;
+  font-weight: 700;
+  color: #01bcb7;
+}
+
+.input2 {
+  border: 2px solid #01bcb7;
+  width: 182px;
+  text-align: center;
+  text-overflow: clip;
+  word-wrap: normal;
+  overflow: hidden;
+  background-color: #ffffff;
+  font-size: 21px;
+  outline: none;
+  padding: 13px 0 14px 0;
+  border-radius: 8px;
+  font-weight: 700;
+  color: #01bcb7;
+}
+
+.buttonBox div:nth-child(3) {
+  border-left: 0.75px solid #01bcb7;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #01bcb7;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.buttonBox div:nth-child(3):active {
+  background-color: #ffffff;
+  color: #01bcb7;
+}
+
+.next {
+  border-radius: 50%;
+  align-self: center;
+  background-color: #01bcb7;
+  border: 2px solid #01bcb7;
+  color: #ffffff;
+  padding: 9px 15px 10px 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.next:active {
+  background-color: #ffffff;
+  color: #01bcb7;
+}
+
+.counterValue {
+  font-size: 12px;
+  padding-left: 3px;
+  font-weight: 500;
+}

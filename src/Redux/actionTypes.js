@@ -1,0 +1,8 @@
+export const INC_COUNT = "INC_COUNT"
+export const DEC_COUNT = "DEC_COUNT"
+export const UPD_COUNT = "UPD_COUNT"
+export const UPD_CODE = "UPD_CODE"
+export const UPD_TYPE = "UPD_TYPE"
+export const GET_CODE_DATA = "GET_CODE_DATA"
+export const GET_PRICE_DATA = "GET_PRICE_DATA"
+export const CALCULATE = "CALCULATE"
